@@ -1,0 +1,176 @@
+html {
+  height: 100%;
+  background: #1a1a1a;
+}
+
+a:link {
+  transition: .2s all linear;
+}
+
+.container {
+  overflow: hidden;
+}
+
+body.is-locked {
+  overflow-y: hidden;
+}
+
+header {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+footer {
+  margin-bottom: 15px;
+}
+
+.logo-image {
+  float: right;
+  top: 0;
+  right: 0;
+  width: 100px;
+}
+.material-icons {
+  vertical-align: top;
+}
+.material-icons.md-14 {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+header > ul {
+  display: none;
+}
+
+header img {
+  display: none;
+}
+
+.mobile-nav {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.mobile-nav > .material-icons:link,
+.mobile-nav > .material-icons:visited {
+  transition: all .2s linear;
+}
+.mobile-nav > .material-icons:hover,
+.mobile-nav > .material-icons:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.mobile-nav .list {
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 100;
+  transition: opacity .3s ease, transform 0.5s ease;
+  transform: translateY(0);
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.mobile-nav .list.is-hidden {
+  opacity: 0;
+  transform: translateY(-150%);
+}
+
+.mobile-nav .list li a {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-nav .list li a:hover {
+  background: #333;
+  color: #eee;
+}
+
+.mobile-nav .list li:first-child a {
+  border-top: 1px solid #eee;
+}
+
+.working-photo {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+.working-photo.emirates-photo {
+  height: 200px;
+  background-position-y: -20px;
+}
+
+.cancel-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 40px;
+}
+
+.technologies img {
+  background: #eee;
+  display: block;
+  max-width: 250px;
+  margin: 10px auto;
+}
+.footer-react-logo-wrapper {
+  float: left;
+}
+.footer-react-logo {
+  height: 30px;
+}
+strong {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 800px) {
+  header > ul {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 0;
+  }
+
+  .working-photo {
+    height: 300px;
+    background-position-y: -200px;
+  }
+
+  .working-photo.emirates-photo {
+    height: 500px;
+    background-position-y: -50px;
+  }
+  .technologies img {
+    display: inline;
+    max-width: 150px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  header img {
+    display: block;
+  }
+}
