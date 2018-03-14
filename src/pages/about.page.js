@@ -10,7 +10,7 @@ export default class AboutPage extends React.Component {
     this.state = {
       content: {
         mainTitle: 'A few words about myself',
-        mainStory: 'I have started my IT career as a mobile phones manual tester. Very soon I have realised that web development is my natural choice for further development. And that is how it started. I just went to one of my first Front-End position offerings, and got hired, for the minimum monthly salary offered in Poland (at that time) just to have a proper start and preperation for, up to now, 10+ journey into the javascript world...',
+        mainStory: 'I have started my IT career as a mobile phones manual tester. Very soon I have realised that web development is my natural choice for further development. And that is how it started. I just went to one of my first Front-End position offerings, and got hired, for the minimum monthly salary offered in Poland (at that time) just to have a proper start and preparation for, up to now, 10+ year journey into the javascript world...',
         privateStory: 'Privately, I am a geek of far travelling, outside of Europe mostly. I am also in love with photography. I can also watch each of the Star Wars episode - anytime, anywhere. The same stands for playing Assasins Creed series.'
       },
       media: {

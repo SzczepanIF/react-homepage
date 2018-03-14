@@ -139,6 +139,16 @@ strong {
   text-decoration: underline;
 }
 
+.companies-list li {
+  display: block !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.companies-list li a,
+.companies-list li strong {
+  display:block;
+}
+
 @media only screen and (min-width: 800px) {
   header > ul {
     display: block;
@@ -173,6 +183,23 @@ strong {
     margin-left: 5px;
     margin-right: 10px;
   }
+
+  .companies-list li {
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 2px solid #eee;
+    margin-bottom: 15px;
+    transition: all .3s linear;
+    display: inline-block !important;
+    margin-top: 0;
+  }
+
+  .companies-list li:hover {
+    background: #eee;
+    box-shadow: inset 0px -1px 121px -38px rgba(0,0,0,0.75);
+  }
+
 }
 
 @media only screen and (min-width: 1000px) {

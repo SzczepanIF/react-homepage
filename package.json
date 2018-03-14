@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "homepage": "http://localhost:8080/",
+  "homepage": "http://www.szczepanczyk.org/",
   "main": "src/index.js",
   "dependencies": {
     "react": "16.2.0",

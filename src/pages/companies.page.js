@@ -1,15 +1,6 @@
 import React from "react";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 
-import avausLogo from '../media/company/avaus.jpg';
-import benqLogo from '../media/company/benq.jpeg';
-import codersLabLogo from '../media/company/coderslab.png';
-import intiveLogo from '../media/company/intive.jpg';
-import mediaAmbasadorLogo from '../media/company/mediaamba.png';
-import micazookLogo from '../media/company/micazook.jpeg';
-import nkLogo from '../media/company/nk.jpeg';
-import nsnLogo from '../media/company/nsn.jpg';
-import unicLogo from '../media/company/unic.jpg';
 
 import companiesPhoto from '../media/companies_photo.jpg';
 
@@ -20,17 +11,6 @@ export default class CompaniesPage extends React.Component {
     this.state = {
       content: {
         mainTitle: 'Front-End Commercial Experience',
-      },
-      companiesLogos: {
-        avaus: avausLogo,
-        benq: benqLogo,
-        codersLab: codersLabLogo,
-        intive: intiveLogo,
-        mediaAmbasador: mediaAmbasadorLogo,
-        micazook: micazookLogo,
-        nk: nkLogo,
-        nokia: nsnLogo,
-        unic: unicLogo,
       },
       media: {
         companiesPhoto: companiesPhoto
@@ -57,37 +37,37 @@ export default class CompaniesPage extends React.Component {
           <div className="working-photo" style={ this.photoStyles }></div>
           <hr className="hr" />
           <h2 className="h4 text-center py-3"><span className="material-icons ">gavel</span> Currently working for:</h2>
-          <ul className="list-inline pb-2 text-center">
+          <ul className="list-inline pb-2 companies-list text-center">
             <li className="list-inline-item">
-              <img src={this.state.companiesLogos.intive} alt="Intive" />
+              <strong>Intive</strong> <a href="http://www.intive.com">http://www.intive.com</a>
             </li>
             <li className="list-inline-item">
-              <img src={this.state.companiesLogos.codersLab} alt="Coders Lab" />
+              <strong>Coders Lab</strong> <a href="https://coderslab.pl/en">http://coderslab.pl</a>
             </li>
           </ul>
           <hr className="hr" />
           <h2 className="h4 text-center py-4"><span className="material-icons ">timeline</span> Had also a pleasure to cooperate in the past with:</h2>
-          <ul className="list-inline pb-2 px-4 text-center">
+          <ul className="list-inline pb-2 px-2 text-center companies-list">
             <li className="list-inline-item">
-              <img src={this.state.companiesLogos.unic} alt="Unic" />
+              <strong>Unic</strong> <a href="http://www.unic.com">http://www.unic.com</a>
             </li>
             <li className="list-inline-item">
-              <img src={this.state.companiesLogos.micazook} alt="Micazook"/>
+              <strong>Micazook</strong> <a href="http://www.micazook.com/">http://www.micazook.com/</a>
             </li>
             <li className="list-inline-item">
-              <img src={this.state.companiesLogos.avaus} alt="Avaus Consulting" />
+              <strong>Avaus Consulting</strong> <a href="http://www.avaus.fi/pl/">https://www.avaus.fi/pl/</a>
             </li>
             <li className="list-inline-item">
-              <img src={this.state.companiesLogos.nk} alt="Nasza-Klasa" />
+              <strong>Nasza Klasa</strong> <a href="http://nk.pl">http://nk.pl</a>
             </li>
             <li className="list-inline-item">
-              <img src={this.state.companiesLogos.nokia} alt="Nokia Siemens Networks"/>
+              <strong>Nokia Siemens Networks</strong> <a href="http://nokiawroclaw.pl/">http://www.nokiawroclaw.pl/</a>
             </li>
             <li className="list-inline-item">
-              <img src={this.state.companiesLogos.mediaAmbasador} alt="Media Ambassador"/>
+              <strong>Media Ambassador</strong> <a href="http://www.mediaambassador.com/">http://www.mediaambassador.com/</a>
             </li>
             <li className="list-inline-item">
-              <img src={this.state.companiesLogos.benq} alt="BenQ Poland"/>
+              <strong>BenQ Poland</strong> <a href="http://www.benq.com.pl/">http://www.benq.com.pl/</a>
             </li>
           </ul>
         </div>
