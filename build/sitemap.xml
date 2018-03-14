@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://szczepanczyk.org</loc><priority>0.5</priority></url>
+<url><loc>http://szczepanczyk.org/#</loc><priority>0.5</priority></url>
+<url><loc>http://szczepanczyk.org/#/about</loc><priority>0.5</priority></url>
+<url><loc>http://szczepanczyk.org/#/companies</loc><priority>0.5</priority></url>
+<url><loc>http://szczepanczyk.org/#/projects</loc><priority>0.5</priority></url>
+<url><loc>http://szczepanczyk.org/#/technologies</loc><priority>0.5</priority></url>
+<url><loc>http://szczepanczyk.org/#/contact</loc><priority>0.5</priority></url>
+</urlset>
