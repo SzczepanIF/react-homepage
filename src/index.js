@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch} from "react-router-dom";
 
 //Components
 import Header from "./components/header.component";
@@ -21,17 +21,17 @@ import "./styles/theme.css";
 
 const App = () => (
   <div className="bg-primary">
-      <Router>
+      <Router basename="/">
         <div className="container">
           <Header />
           <section className="bg-white text-primary p-2">
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route exact path="/about" component={AboutPage}  />
-            <Route exact path="/companies" component={CompaniesPage} />
-            <Route exact path="/projects" component={ProjectsPage} />
-            <Route exact path="/technologies" component={TechnologiesPage} />
-            <Route exact path="/contact" component={ContactPage} />
+            <Route path="/about" component={AboutPage}  />
+            <Route path="/companies" component={CompaniesPage} />
+            <Route path="/projects" component={ProjectsPage} />
+            <Route path="/technologies" component={TechnologiesPage} />
+            <Route path="/contact" component={ContactPage} />
           </Switch>
           </section>
           <Footer />
