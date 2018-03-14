@@ -12,7 +12,7 @@ export default class HomePage extends React.Component {
         overviewTile: 'Generic Overview',
         overviewInfo: 'Experienced Front-End geek. Extremely keen on new javascript/ECMAScript stuff. Also involved in mentoring, and helping people out of the industry to jump in to the web development world. ',
         experienceInfo: "For more than 11 years, worked for many international companies - mostly within the projects surrouned by the aviation, social media, or television area. Since 2 years working also part-time as a Front-End Lecturer for 8-12 people including lectures about gulp, sass, photoshop, javascript, html5, linters etc.",
-        interestInfo: 'Mostly interested in javascript MVVM frameworks. Have a soli commercial experience mostly in Angular2+/AngularJS Frameworks, but still updating the data for frameworks like Vue.js or React',
+        interestInfo: 'Mostly interested in javascript MVVM frameworks. Have a solid commercial experience mostly in Angular2+/AngularJS Frameworks, but constantly updating the knowledge about frameworks like Vue.js or React',
       },
       media: {
         workingPhoto: workingPhoto,

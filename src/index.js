@@ -1,6 +1,5 @@
 import React from "react";
 import { render } from "react-dom";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //Components
@@ -22,13 +21,6 @@ import "./styles/theme.css";
 
 const App = () => (
   <div className="bg-primary">
-    <ReactCSSTransitionGroup
-      transitionAppear={true}
-      transitionAppearTimeout={1200}
-      transitionEnterTimeout={1200}
-      transitionLeaveTimeout={400}
-      transitionName="SlideIn"
-    >
       <Router>
         <div className="container">
           <Header />
@@ -45,7 +37,6 @@ const App = () => (
           <Footer />
         </div>
       </Router>
-    </ReactCSSTransitionGroup>
   </div>
 );
 
