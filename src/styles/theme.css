@@ -149,6 +149,15 @@ strong {
   display:block;
 }
 
+.table a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.table th {
+  background: #555;
+  color: #eee;
+}
+
 @media only screen and (min-width: 800px) {
   header > ul {
     display: block;

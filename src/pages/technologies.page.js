@@ -20,6 +20,7 @@ export default class TechnologiesPage extends React.Component {
     this.state = {
       content: {
         mainTitle: 'Technologies I love:',
+        linksTitle: 'Useful Links:'
       },
       technologiesLogos: {
         angular: angularLogo,
@@ -66,6 +67,64 @@ export default class TechnologiesPage extends React.Component {
           <img src={this.state.technologiesLogos.sass} alt="sass" />
           <img src={this.state.technologiesLogos.webpack} alt="Webpack" />
           <img src={this.state.technologiesLogos.wcag} alt="WCAG 2.0" />
+          <hr className="hr" />
+          <h2 className="h3 text-center text-primary mb-5 mt-5"><span className="material-icons">link</span> {this.state.content.linksTitle}</h2>
+
+          <table className="table table-striped table-bordered ">
+            <thead>
+              <tr>
+                <th>Link</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="http://smashingmagazine.com">Smashing Magazine</a></td>
+                <td>Self-explanatory</td>
+              </tr>
+              <tr>
+                <td><a href="https://caniuse.com/">Can I Use</a></td>
+                <td>Features browser compatibility</td>
+              </tr>
+              <tr>
+                <td><a href="https://angular.io/docs">Angular.io docs</a></td>
+                <td>Angular 2+ documentation</td>
+              </tr>
+              <tr>
+                <td><a href="https://vuejs.org/v2/guide/">Vue.js docs</a></td>
+                <td>Vue.js documentation</td>
+              </tr>
+              <tr>
+                <td><a href="https://codesandbox.io/">Code Sandbox</a></td>
+                <td>Code Sandbox for online code with the usage of popular frameworks/libs</td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/tc39/proposals">TC39 proposals</a></td>
+                <td>ECMAScript new features proposals (github)</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.w3.org/TR/wai-aria-practices/">WCAG official docs</a></td>
+                <td>Official W3C documentation for accessibility</td>
+              </tr>
+              <tr>
+                <td><a href="http://accessibility.athena-ict.com/aria/ARIA-accessibility-home.shtml">Athena ICT examples</a></td>
+                <td>WCAG 2.0 accessibility docs/examples</td>
+              </tr>
+              <tr>
+                <td><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4+ docs</a></td>
+                <td>Bootstrap documentation</td>
+              </tr>
+              <tr>
+                <td><a href="http://phaser.io/examples">Phaser.io docs</a></td>
+                <td>Documentation for game/psychics js engine</td>
+              </tr>
+              <tr>
+                <td><a href="https://material.io/icons/">Material Design Icons</a></td>
+                <td>A set of ready to use icons created by Google</td>
+              </tr>
+            </tbody>
+          </table>
+
         </div>
       </ReactCSSTransitionGroup>
     )
