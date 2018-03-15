@@ -106,8 +106,8 @@ header img {
 
 .working-photo {
   width: 100%;
-  height: 300px;
   background-size: cover;
+  height: 300px;
 }
 
 .working-photo.emirates-photo {
@@ -162,21 +162,6 @@ strong {
     padding-bottom: 0;
   }
 
-  .working-photo {
-    height: 300px;
-    background-position-y: -200px;
-  }
-
-  .working-photo.emirates-photo {
-    height: 500px;
-    background-position-y: -50px;
-  }
-
-  .working-photo.projects-photo {
-    background-position-y: -415px;
-  }
-
-
   .technologies img {
     display: inline-block;
     max-width: 150px;
@@ -205,5 +190,22 @@ strong {
 @media only screen and (min-width: 1000px) {
   header img {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .working-photo {
+    height: 300px;
+    background-position-y: -200px;
+    background-size: cover;
+  }
+
+  .working-photo.emirates-photo {
+    height: 500px;
+    background-position-y: -50px;
+  }
+
+  .working-photo.projects-photo {
+    background-position-y: -415px;
   }
 }
