@@ -1,7 +1,7 @@
 var compress_images = require('compress-images'), INPUT_path_to_your_images, OUTPUT_path;
 
-   INPUT_path_to_your_images = './external/media/**/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}';
-   OUTPUT_path = './src/media/';
+   INPUT_path_to_your_images = 'external/**/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}';
+   OUTPUT_path = 'external/media-optimized/';
 
    compress_images(INPUT_path_to_your_images, OUTPUT_path, {compress_force: false, statistic: true, autoupdate: true}, false,
                                                {jpg: {engine: 'mozjpeg', command: ['-quality', '60']}},

@@ -17,13 +17,14 @@
     "react-share": "*"
   },
   "devDependencies": {
-    "compress-images": "^1.1.8"
+    "compress-images": "^1.1.8",
+    "path": "*"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "images": "node config/compress-images"
+    "images": "node config/images"
   }
 }
