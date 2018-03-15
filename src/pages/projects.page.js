@@ -31,12 +31,12 @@ export default class ProjectsPage extends React.Component {
         transitionName="SlideIn"
       >
         <div className="py-4 px-2">
-          <h1 className="h2 text-center text-primary">{this.state.content.mainTitle}</h1>
+          <h2 className="h2 text-center text-primary">{this.state.content.mainTitle}</h2>
           <hr className="hr" />
           <div className="working-photo projects-photo" style={ this.photoStyles }>
           </div>
           <hr className="hr" />
-          <h2 className="h4 text-center py-3 px-5">Most common project branches I was involved in:</h2>
+          <h3 className="h4 text-center py-3 px-5">Most common project branches I was involved in:</h3>
           <ul className="list">
             <li className="list-item">Aviation (couple of projects for world-wide known airlines)</li>
             <li className="list-item">Social Media (worked for the biggest social media company at the given time in Poland)</li>

@@ -53,7 +53,7 @@ export default class TechnologiesPage extends React.Component {
         transitionName="SlideIn"
       >
         <div className="py-4 px-3 technologies text-center">
-          <h1 className="h2 text-center text-primary">♥ {this.state.content.mainTitle}</h1>
+          <h2 className="h2 text-center text-primary">♥ {this.state.content.mainTitle}</h2>
           <hr className="hr" />
           <div className="working-photo" style={ this.photoStyles }>
           </div>
@@ -68,7 +68,7 @@ export default class TechnologiesPage extends React.Component {
           <img src={this.state.technologiesLogos.webpack} alt="Webpack" />
           <img src={this.state.technologiesLogos.wcag} alt="WCAG 2.0" />
           <hr className="hr" />
-          <h2 className="h3 text-center text-primary mb-5 mt-5"><span className="material-icons">link</span> {this.state.content.linksTitle}</h2>
+          <h3 className="h3 text-center text-primary mb-5 mt-5"><span className="material-icons">link</span> {this.state.content.linksTitle}</h3>
 
           <table className="table table-striped table-bordered ">
             <thead>

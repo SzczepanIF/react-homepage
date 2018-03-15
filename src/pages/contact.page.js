@@ -36,7 +36,7 @@ export default class ConctactPage extends React.Component {
         transitionName="SlideIn"
       >
         <div className="py-4 px-2">
-          <h1 className="h2 text-center text-primary">{this.state.content.mainTitle}</h1>
+          <h2 className="h2 text-center text-primary">{this.state.content.mainTitle}</h2>
           <hr className="hr" />
           <div className="working-photo" style={ this.photoStyles }></div>
           <hr className="hr" />
@@ -44,7 +44,7 @@ export default class ConctactPage extends React.Component {
           <p className="text-center"><strong>Mobile phone</strong>: <span className="material-icons md-14">phone</span> {this.state.content.contact.phone}</p>
           <p className="text-center"><strong>Github profile</strong>: <span className="material-icons md-14">build</span> <a href={this.state.content.contact.github}>{this.state.content.contact.github}</a></p>
           <hr className="hr" />
-          <h2 className="h4 text-center py-3">Want to see my CV? <span className="material-icons md-64">search</span></h2>
+          <h3 className="h4 text-center py-3">Want to see my CV? <span className="material-icons md-64">search</span></h3>
           <p className="text-center"><strong>LinkedIn profile</strong>: <span className="material-icons md-14">wallpaper</span>  <a href={this.state.content.contact.linkedIn}>{this.state.content.contact.linkedIn}</a></p>
         </div>
       </ReactCSSTransitionGroup>

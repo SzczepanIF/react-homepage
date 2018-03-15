@@ -32,11 +32,11 @@ export default class CompaniesPage extends React.Component {
         transitionName="SlideIn"
       >
         <div className="py-4 px-2 technologies">
-          <h1 className="h2 text-center text-primary"><span className="material-icons">work</span> {this.state.content.mainTitle}</h1>
+          <h2 className="h2 text-center text-primary"><span className="material-icons">work</span> {this.state.content.mainTitle}</h2>
           <hr className="hr" />
           <div className="working-photo" style={ this.photoStyles }></div>
           <hr className="hr" />
-          <h2 className="h4 text-center py-3"><span className="material-icons ">gavel</span> Currently working for:</h2>
+          <h3 className="h4 text-center py-3"><span className="material-icons ">gavel</span> Currently working for:</h3>
           <ul className="list-inline pb-2 companies-list text-center">
             <li className="list-inline-item">
               <strong>Intive</strong> <a href="http://www.intive.com">http://www.intive.com</a>
@@ -46,7 +46,7 @@ export default class CompaniesPage extends React.Component {
             </li>
           </ul>
           <hr className="hr" />
-          <h2 className="h4 text-center py-4"><span className="material-icons ">timeline</span> Had also a pleasure to cooperate in the past with:</h2>
+          <h3 className="h4 text-center py-4"><span className="material-icons ">timeline</span> Had also a pleasure to cooperate in the past with:</h3>
           <ul className="list-inline pb-2 px-2 text-center companies-list">
             <li className="list-inline-item">
               <strong>Unic</strong> <a href="http://www.unic.com">http://www.unic.com</a>

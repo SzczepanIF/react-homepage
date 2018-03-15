@@ -35,16 +35,16 @@ export default class HomePage extends React.Component {
         transitionName="SlideIn"
       >
         <div className="py-4 px-2">
-          <h1 className="h2 text-center text-primary">{this.state.content.mainTitle}</h1>
+          <h2 className="h2 text-center text-primary">{this.state.content.mainTitle}</h2>
           <hr className="hr" />
           <div className="working-photo" style={ this.photoStyles }>
           </div>
           <hr className="hr" />
-          <h2 className="h4 text-center py-3"><span className="material-icons md-64">code</span> Front-End Experience</h2>
+          <h3 className="h4 text-center py-3"><span className="material-icons md-64">code</span> Front-End Experience</h3>
           <p className="px-3">{this.state.content.overviewInfo}</p>
-          <h2 className="h4 text-center py-3"><span className="material-icons md-64">dashboard</span> Generic Overview</h2>
+          <h3 className="h4 text-center py-3"><span className="material-icons md-64">dashboard</span> Generic Overview</h3>
           <p className="px-3">{this.state.content.experienceInfo}</p>
-          <h2 className="h4 text-center py-3"><span className="material-icons md-64">build</span> Javascript Oriented</h2>
+          <h3 className="h4 text-center py-3"><span className="material-icons md-64">build</span> Javascript Oriented</h3>
           <p className="px-3">{this.state.content.interestInfo}</p>
         </div>
       </ReactCSSTransitionGroup>

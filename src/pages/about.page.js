@@ -33,7 +33,7 @@ export default class AboutPage extends React.Component {
         transitionName="SlideIn"
       >
         <div className="py-4 px-2">
-          <h1 className="h2 text-center text-primary">{this.state.content.mainTitle}</h1>
+          <h2 className="h2 text-center text-primary">{this.state.content.mainTitle}</h2>
           <hr className="hr" />
           <div className="working-photo emirates-photo" style={ this.photoStyles }></div>
           <hr className="hr" />
